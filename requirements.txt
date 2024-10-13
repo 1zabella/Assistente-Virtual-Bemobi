@@ -1,0 +1,7 @@
+pip
+openai
+streamlit
+streamlit-chat 
+streamlit-extras
+fastapi
+uvicorn

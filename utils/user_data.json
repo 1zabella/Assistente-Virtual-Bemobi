@@ -1,0 +1,343 @@
+[
+    {
+      "dados_pessoais": {
+        "nome_usuario": "João Silva",
+        "numero_telefone": "5511912345678",
+        "cpf": "12345678910",
+        "data_nascimento": "1990-05-15"
+      },
+      "dados_cartao": [
+        {
+          "numero_cartao": "4111111111111111",
+          "cvv": "123",
+          "data_vencimento": "07/2025",
+          "nome_gravado": "JOAO SILVA",
+          "modalidade": "crédito"
+        },
+        {
+          "numero_cartao": "5222222222222222",
+          "cvv": "456",
+          "data_vencimento": "12/2026",
+          "nome_gravado": "JOAO SILVA",
+          "modalidade": "débito"
+        },
+        {
+          "numero_cartao": "6333333333333333",
+          "cvv": "789",
+          "data_vencimento": "11/2024",
+          "nome_gravado": "JOAO SILVA",
+          "modalidade": "crédito"
+        }
+      ],
+      "dados_assinatura": {
+        "valor_assinatura": 59.90,
+        "data_fechamento": "2024-10-10",
+        "data_vencimento": "2024-11-10",
+        "ultima_data_pagamento": "2024-10-01",
+        "status_conta": "paga",
+        "meio_pagamento_cadastrado": {
+          "numero_cartao": "4111111111111111",
+          "cvv": "123",
+          "data_vencimento": "07/2025",
+          "nome_gravado": "JOAO SILVA",
+          "modalidade": "crédito"
+        }
+      },
+      "ordem_preferencias": {
+        "meio_pagamento_1": {
+          "numero_cartao": "4111111111111111",
+          "cvv": "123",
+          "data_vencimento": "07/2025",
+          "nome_gravado": "JOAO SILVA",
+          "modalidade": "crédito"
+        },
+        "meio_pagamento_2": {
+          "numero_cartao": "5222222222222222",
+          "cvv": "456",
+          "data_vencimento": "12/2026",
+          "nome_gravado": "JOAO SILVA",
+          "modalidade": "débito"
+        },
+        "meio_pagamento_3": {
+          "numero_cartao": "6333333333333333",
+          "cvv": "789",
+          "data_vencimento": "11/2024",
+          "nome_gravado": "JOAO SILVA",
+          "modalidade": "crédito"
+        }
+      }
+    },
+    {
+      "dados_pessoais": {
+        "nome_usuario": "Maria Souza",
+        "numero_telefone": "5521998765432",
+        "cpf": "23456789011",
+        "data_nascimento": "1985-03-22"
+      },
+      "dados_cartao": [
+        {
+          "numero_cartao": "5111111111111111",
+          "cvv": "321",
+          "data_vencimento": "05/2027",
+          "nome_gravado": "MARIA SOUZA",
+          "modalidade": "crédito"
+        },
+        {
+          "numero_cartao": "6222222222222222",
+          "cvv": "654",
+          "data_vencimento": "10/2028",
+          "nome_gravado": "MARIA SOUZA",
+          "modalidade": "débito"
+        },
+        {
+          "numero_cartao": "7333333333333333",
+          "cvv": "987",
+          "data_vencimento": "01/2026",
+          "nome_gravado": "MARIA SOUZA",
+          "modalidade": "pré-pago"
+        }
+      ],
+      "dados_assinatura": {
+        "valor_assinatura": 79.90,
+        "data_fechamento": "2024-09-15",
+        "data_vencimento": "2024-10-15",
+        "ultima_data_pagamento": "2024-09-16",
+        "status_conta": "prestes a vencer",
+        "meio_pagamento_cadastrado": {
+          "numero_cartao": "5111111111111111",
+          "cvv": "321",
+          "data_vencimento": "05/2027",
+          "nome_gravado": "MARIA SOUZA",
+          "modalidade": "crédito"
+        }
+      },
+      "ordem_preferencias": {
+        "meio_pagamento_1": {
+          "numero_cartao": "5111111111111111",
+          "cvv": "321",
+          "data_vencimento": "05/2027",
+          "nome_gravado": "MARIA SOUZA",
+          "modalidade": "crédito"
+        },
+        "meio_pagamento_2": {
+          "numero_cartao": "6222222222222222",
+          "cvv": "654",
+          "data_vencimento": "10/2028",
+          "nome_gravado": "MARIA SOUZA",
+          "modalidade": "débito"
+        },
+        "meio_pagamento_3": {
+          "numero_cartao": "7333333333333333",
+          "cvv": "987",
+          "data_vencimento": "01/2026",
+          "nome_gravado": "MARIA SOUZA",
+          "modalidade": "pré-pago"
+        }
+      }
+    },
+    {
+      "dados_pessoais": {
+        "nome_usuario": "Pedro Lima",
+        "numero_telefone": "5531977771111",
+        "cpf": "34567890112",
+        "data_nascimento": "1978-11-30"
+      },
+      "dados_cartao": [
+        {
+          "numero_cartao": "6111111111111111",
+          "cvv": "231",
+          "data_vencimento": "08/2025",
+          "nome_gravado": "PEDRO LIMA",
+          "modalidade": "crédito"
+        },
+        {
+          "numero_cartao": "7222222222222222",
+          "cvv": "564",
+          "data_vencimento": "02/2029",
+          "nome_gravado": "PEDRO LIMA",
+          "modalidade": "débito"
+        },
+        {
+          "numero_cartao": "8333333333333333",
+          "cvv": "897",
+          "data_vencimento": "09/2024",
+          "nome_gravado": "PEDRO LIMA",
+          "modalidade": "crédito"
+        }
+      ],
+      "dados_assinatura": {
+        "valor_assinatura": 99.90,
+        "data_fechamento": "2024-08-12",
+        "data_vencimento": "2024-09-12",
+        "ultima_data_pagamento": "2024-09-13",
+        "status_conta": "atrasada",
+        "meio_pagamento_cadastrado": {
+          "numero_cartao": "6111111111111111",
+          "cvv": "231",
+          "data_vencimento": "08/2025",
+          "nome_gravado": "PEDRO LIMA",
+          "modalidade": "crédito"
+        }
+      },
+      "ordem_preferencias": {
+        "meio_pagamento_1": {
+          "numero_cartao": "6111111111111111",
+          "cvv": "231",
+          "data_vencimento": "08/2025",
+          "nome_gravado": "PEDRO LIMA",
+          "modalidade": "crédito"
+        },
+        "meio_pagamento_2": {
+          "numero_cartao": "7222222222222222",
+          "cvv": "564",
+          "data_vencimento": "02/2029",
+          "nome_gravado": "PEDRO LIMA",
+          "modalidade": "débito"
+        },
+        "meio_pagamento_3": {
+          "numero_cartao": "8333333333333333",
+          "cvv": "897",
+          "data_vencimento": "09/2024",
+          "nome_gravado": "PEDRO LIMA",
+          "modalidade": "crédito"
+        }
+      }
+    },
+    {
+      "dados_pessoais": {
+        "nome_usuario": "Ana Pereira",
+        "numero_telefone": "5541934567890",
+        "cpf": "45678901213",
+        "data_nascimento": "1992-07-05"
+      },
+      "dados_cartao": [
+        {
+          "numero_cartao": "7111111111111111",
+          "cvv": "312",
+          "data_vencimento": "12/2023",
+          "nome_gravado": "ANA PEREIRA",
+          "modalidade": "crédito"
+        },
+        {
+          "numero_cartao": "8222222222222222",
+          "cvv": "645",
+          "data_vencimento": "06/2025",
+          "nome_gravado": "ANA PEREIRA",
+          "modalidade": "débito"
+        },
+        {
+          "numero_cartao": "9333333333333333",
+          "cvv": "978",
+          "data_vencimento": "03/2024",
+          "nome_gravado": "ANA PEREIRA",
+          "modalidade": "pré-pago"
+        }
+      ],
+      "dados_assinatura": {
+        "valor_assinatura": 49.90,
+        "data_fechamento": "2024-09-01",
+        "data_vencimento": "2024-10-01",
+        "ultima_data_pagamento": "2024-09-30",
+        "status_conta": "prestes a vencer",
+        "meio_pagamento_cadastrado": {
+          "numero_cartao": "7111111111111111",
+          "cvv": "312",
+          "data_vencimento": "12/2023",
+          "nome_gravado": "ANA PEREIRA",
+          "modalidade": "crédito"
+        }
+      },
+      "ordem_preferencias": {
+        "meio_pagamento_1": {
+          "numero_cartao": "7111111111111111",
+          "cvv": "312",
+          "data_vencimento": "12/2023",
+          "nome_gravado": "ANA PEREIRA",
+          "modalidade": "crédito"
+        },
+        "meio_pagamento_2": {
+          "numero_cartao": "8222222222222222",
+          "cvv": "645",
+          "data_vencimento": "06/2025",
+          "nome_gravado": "ANA PEREIRA",
+          "modalidade": "débito"
+        },
+        "meio_pagamento_3": {
+          "numero_cartao": "9333333333333333",
+          "cvv": "978",
+          "data_vencimento": "03/2024",
+          "nome_gravado": "ANA PEREIRA",
+          "modalidade": "pré-pago"
+        }
+      }
+    },
+    {
+      "dados_pessoais": {
+        "nome_usuario": "Carlos Mendes",
+        "numero_telefone": "5581965432109",
+        "cpf": "56789012314",
+        "data_nascimento": "1980-12-18"
+      },
+      "dados_cartao": [
+        {
+          "numero_cartao": "8111111111111111",
+          "cvv": "213",
+          "data_vencimento": "04/2025",
+          "nome_gravado": "CARLOS MENDES",
+          "modalidade": "crédito"
+        },
+        {
+          "numero_cartao": "9222222222222222",
+          "cvv": "546",
+          "data_vencimento": "08/2026",
+          "nome_gravado": "CARLOS MENDES",
+          "modalidade": "débito"
+        },
+        {
+          "numero_cartao": "1333333333333333",
+          "cvv": "879",
+          "data_vencimento": "10/2027",
+          "nome_gravado": "CARLOS MENDES",
+          "modalidade": "pré-pago"
+        }
+      ],
+      "dados_assinatura": {
+        "valor_assinatura": 69.90,
+        "data_fechamento": "2024-11-10",
+        "data_vencimento": "2024-12-10",
+        "ultima_data_pagamento": "2024-11-09",
+        "status_conta": "prestes a fechar",
+        "meio_pagamento_cadastrado": {
+          "numero_cartao": "8111111111111111",
+          "cvv": "213",
+          "data_vencimento": "04/2025",
+          "nome_gravado": "CARLOS MENDES",
+          "modalidade": "crédito"
+        }
+      },
+      "ordem_preferencias": {
+        "meio_pagamento_1": {
+          "numero_cartao": "8111111111111111",
+          "cvv": "213",
+          "data_vencimento": "04/2025",
+          "nome_gravado": "CARLOS MENDES",
+          "modalidade": "crédito"
+        },
+        "meio_pagamento_2": {
+          "numero_cartao": "9222222222222222",
+          "cvv": "546",
+          "data_vencimento": "08/2026",
+          "nome_gravado": "CARLOS MENDES",
+          "modalidade": "débito"
+        },
+        "meio_pagamento_3": {
+          "numero_cartao": "1333333333333333",
+          "cvv": "879",
+          "data_vencimento": "10/2027",
+          "nome_gravado": "CARLOS MENDES",
+          "modalidade": "pré-pago"
+        }
+      }
+    }
+  ]
+  
