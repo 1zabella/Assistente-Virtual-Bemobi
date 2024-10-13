@@ -27,7 +27,7 @@ data = load_user_data()
 # Função principal para inicializar a interface do chatbot
 def main():
     # Configuração da página
-    st.set_page_config(page_title="Assistente Proativo Bemobi", page_icon="🚀", layout="wide")
+    st.set_page_config(page_title="Jarvis", page_icon="assets/jarvis.png")
 
     # Inicializar variáveis de sessão
     initialize_session_state()

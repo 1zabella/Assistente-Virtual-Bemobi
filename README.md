@@ -91,3 +91,14 @@ Para configurar o ambiente de desenvolvimento, siga os seguintes passos:
    ```sh
    streamlit run app.py
    ```
+
+5. Arquivo config.json deve conter a chave da OpenAI para ativação da solução. Deve estar na pasta `utils`.
+
+- **Exemplo de config.json:**
+```json
+{
+    "api_key": "sua_chave_aqui"
+}
+```
+
+### IMPORTANTE: o projeto foi desenvolvido com a chave da OpenAI de teste, para utilizar a solução é necessário adquirir uma chave, caso não tenha, não irá rodar.
