@@ -1,6 +1,7 @@
 streamlit
 openai
 streamlit
-streamlit_chat 
-streamlit_extras
+streamlit-chat 
+streamlit-extras
 fastapi
+pip

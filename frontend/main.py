@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
 from streamlit_chat import message
+import openai
 import json
 from openai import OpenAI
 
@@ -119,7 +120,7 @@ def send_message(user_input, cliente):
     st.session_state.chat_history.append({"role": "assistant", "content": response_content})
 
     # Atualizar a interface com a nova mensagem
-    st.experimental_rerun()
+    st.rerun()
 
 # Função para obter resposta da OpenAI
 def get_openai_response(chat_history, cliente):
