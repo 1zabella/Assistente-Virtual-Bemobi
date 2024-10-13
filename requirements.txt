@@ -1,7 +1,7 @@
-streamlit
+pip
 openai
 streamlit
 streamlit-chat 
 streamlit-extras
 fastapi
-pip
+uvicorn

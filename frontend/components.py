@@ -3,7 +3,7 @@ from streamlit_extras.colored_header import colored_header
 
 # Função para renderizar cabeçalho estilizado
 def render_header():
-    st.title(":violet[Assistente Proativo Bemobi]")
+    st.title(":violet[Assistente Proativo Bemobi 🚀]")
     colored_header(label='', description='', color_name='gray-30')
 
 # Função para inicializar variáveis de estado da sessão
