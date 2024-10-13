@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit_extras.colored_header import colored_header
 from streamlit_chat import message
-import openai
 import json
 from openai import OpenAI
 
@@ -40,7 +39,7 @@ def main():
     <style>
     .user-message {
         text-align: right;
-        background-color: #DCF8C6;
+        background-color: #D3D3D3;
         border-radius: 15px 15px 0px 15px;
         padding: 10px;
         margin: 10px;
@@ -50,7 +49,7 @@ def main():
     }
     .assistant-message {
         text-align: left;
-        background-color: #FFFFFF;
+        background-color: #D3D3D3;
         border-radius: 15px 15px 15px 0px;
         padding: 10px;
         margin: 10px;
@@ -108,6 +107,7 @@ def main():
     user_input = st.text_input("Digite sua mensagem aqui:", "", key="user_input")
     if st.button("Enviar") and user_input:
         send_message(user_input, cliente)
+        st.session_state["user_input"] = ""  # Limpar a caixa de texto após o envio
 
 # Função para processar e enviar a mensagem
 def send_message(user_input, cliente):
@@ -119,7 +119,7 @@ def send_message(user_input, cliente):
     st.session_state.chat_history.append({"role": "assistant", "content": response_content})
 
     # Atualizar a interface com a nova mensagem
-    st.rerun()
+    st.experimental_rerun()
 
 # Função para obter resposta da OpenAI
 def get_openai_response(chat_history, cliente):
